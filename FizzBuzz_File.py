@@ -7,14 +7,15 @@ def FizzBuzz(start, finish):
         if i % 3 == 0 and i % 5 == 0:
             outlist.append("fizzbuzz")
 
-        if i % 3 == 0:
+        elif i % 3 == 0:
             outlist.append("fizz")
 
-        if i % 5 == 0:
+        elif i % 5 == 0:
             outlist.append("buzz")
 
         else:
             outlist.append(i)
 
     return outlist
+
 
