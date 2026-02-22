@@ -10,7 +10,7 @@ def getBondPrice_E(face, couponRate, yc):
         pvm = (1+y) ** (-t)
 
         cf = coupon
-        if t == len(yc)
+        if t == len(yc):
             cf += face
 
         bondPrice += cf * pvm
